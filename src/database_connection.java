@@ -11,7 +11,7 @@ public class database_connection {
 
 
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost/courses_management","root","");
+            con = DriverManager.getConnection("jdbc:mysql://localhost/student_registration_system","root","");
 
 
 
